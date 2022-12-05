@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn{
+ @apply px-5 py-2.5 text-sm font-medium transition duration-300  text-white rounded-xl;
+}
+
+.btn-primary{
+ @apply  text-white bg-blue-600 focus:outline-none focus:ring focus:ring-blue-200 hover:bg-blue-700;
+}
+
+.btn-secondary{
+  @apply focus:outline-none focus:ring focus:ring-pink-200 text-white bg-pink-500 hover:bg-pink-600
+}
