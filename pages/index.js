@@ -5,28 +5,37 @@ import Button from "../components/Button";
 import styles from "../styles/Home.module.css";
 import App from "../layouts/app";
 import Hero from "../components/Hero";
+import Hero2 from "../components/Hero2";
 // import Head from "../components/H";
 
 export default function Home() {
   return (
     <>
-      <Hero></Hero>
-      <div className="mb-6 min-h-screen flex items-center justify-center">
-        <div className="w-1/2">
-          <h1 className="font-semibold text-2xl">Tailwind css</h1>
-          <article className="text-lg">
-            <p className="font-display mb-10 leading-relaxed">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Voluptatum ipsam quas harum exercitationem hic, ex corrupti
-              blanditiis quia? Laboriosam, quisquam.
-            </p>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit
-              impedit magni quaerat explicabo amet nihil cumque sapiente sunt
-              commodi officiis.
-            </p>
-          </article>
-        </div>
+      <Hero>
+        <header className="text-white sm:py-8 py-4 md:py-16">
+          <h1 className="text-xl md:text-3xl font-bold">New Revolution</h1>
+          <p className="text-base md:text-xl leading-relaxed font-light mt-4 mb-6">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
+            <a
+              href="#"
+              className="underline decoration-sky-500 text-sky-400 font-medium"
+            >
+              Dolorem quam
+            </a>
+            , recusandae quis dolorum veritatis nulla, nemo consequuntur
+            temporibus quisquam expedita libero est facere ipsum laboriosam
+            eveniet itaque. Rem, dicta temporibus?
+          </p>
+          <a
+            href="#"
+            className="bg-white px-4 py-2 text-sm text-gray-900 md:px-6 md:py-2.5 rounded-xl  font-medium inline-flex shadow-inner hover:bg-gray-50 hover:text-blue-200 transition duration-200 md:shadow-gray-400"
+          >
+            Browse
+          </a>
+        </header>
+      </Hero>
+      <div>
+        <p>article</p>
       </div>
     </>
   );

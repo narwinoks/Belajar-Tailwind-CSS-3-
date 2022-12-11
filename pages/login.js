@@ -30,7 +30,12 @@ export default function Login() {
             name="remember"
             id="remember"
           />
-          <a href="">Forgot Password</a>
+          <a
+            href=""
+            className="underline decoration-indigo-600 text-indigo-500 font-medium"
+          >
+            Forgot Password
+          </a>
         </div>
         <Button>Login</Button>
       </form>
